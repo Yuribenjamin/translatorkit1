@@ -8,13 +8,11 @@ function Header() {
     <div className="header">
        <a href="/">
             <div className="header-logo">
-                    <img className="logo-image" src={logo} alt="Transaltor-kit"></img>
-                    <h4>Free Translator Kit</h4>
+              <img className="logo-image" src={logo} alt="Translator-kit"></img>
+              <h4>Free Translator Kit</h4>
             </div>
        </a>
         <div className="header-title">
-            <a className="editor-link" href="/">Single Editor</a>
-            <a className="editor-link" href="/">Double Editor</a>
            <Darkmode/>
         </div>
     </div>
