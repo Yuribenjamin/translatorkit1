@@ -6,13 +6,15 @@ import logo from '../src/logo.png'
 function Header() {
   return (
     <div className="header">
-       <div className="header-logo">
-            <img src={logo} alt="Transaltor-kit"></img>
-            <h6>Free Translator Kit</h6>
-        </div>
+       <a href="/">
+            <div className="header-logo">
+                    <img src={logo} alt="Transaltor-kit"></img>
+                    <h4>Free Translator Kit</h4>
+            </div>
+       </a>
         <div className="header-title">
-            <a className="editor-link" href="">Single Editor</a>
-            <a className="editor-link" href="">Double Editor</a>
+            <a className="editor-link" href="/">Single Editor</a>
+            <a className="editor-link" href="/">Double Editor</a>
            <Darkmode/>
         </div>
     </div>

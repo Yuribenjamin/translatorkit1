@@ -19,6 +19,10 @@ html, body,
 	height: 100%;
 }
 
+a {
+	text-decoration: none;
+}
+
 .header {
     background-color:#1DA1F2;
     width: 100%;
@@ -35,29 +39,26 @@ html, body,
 .header-logo {
 	display: flex;
 	flex-direction: row;
-
+	margin-top: 5px;
 }
 
 .header-logo, img {
-	width: 75px;
 	margin-left: 5px;
 	margin-right: 5px;
 }
-
 
 .header-title {
     margin-left: auto;
     margin-right: 1em;
     text-align: right;
-	margin-top: 16px;
+	margin-top: 5px;
+	padding-bottom: 5px;
 	display: flex;
 	flex-direction: row;
 }
 
 .editor-link {
 	margin-top: 20px;
-	text-decoration: none;
-	color: black;
 	font-size: 20px;;
 	padding-right: 20px;
 	margin-right: 5em;
