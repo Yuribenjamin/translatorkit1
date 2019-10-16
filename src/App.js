@@ -1,12 +1,12 @@
 import React from 'react';
-import Darkmode from './darkmode/Darkmode';
+import Header from './Header'
 import './App.css';
 
 // The function that toggles between themes
 function App() {
   return (
     <div>
-      <Darkmode/>
+      <Header/>
     </div>
   );
 }
